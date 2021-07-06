@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+section{
+    height: 520px;
+    margin-bottom: 170px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 20px;
+    line-height: 40px;
+    color: rgb(133, 130, 130);
+}
+
+.first-section{
+    background-image: url(./images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.half-portion{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.color-heading{
+    color: rgb(255, 134, 21);
+}
+
+.heading-btn {
+    text-decoration: none;
+    background: linear-gradient(60deg, rgb(147, 45, 243), rgb(63, 148, 151));
+    padding: 12px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.second-section{
+    background-image: url(./images/shapes/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.do-btn{
+    text-decoration: none;
+    background: linear-gradient(70deg, #2980B9, #6DD5FA);
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.recipe-writing h2,p {
+    text-align: center;
+}
+
+.item-card{
+    height: 440px;
+    width: 290px;
+    display: inline-block;
+    margin-left: 100px;
+    border-radius: 15px;
+    box-shadow: 10px 15px 45px rgb(158, 158, 158);
+}
+
+.item-card h4,p{
+    text-align: center;
+}
+
+.item-img{
+    border-radius: 15px;
+}
+
+
+
+.wrapper {
+    box-shadow: 10px 12px 40px rgb(158, 158, 158);
+}
+
+.wrapper .wrapper-content {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 160px;
+    padding: 15px 15px;
+}
+
+.wrapper .wrapper-content h3 {
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #333;
+}
+
+.footer-content h4,p{
+    margin-top:10px;
+    text-align: center;
+}
+
